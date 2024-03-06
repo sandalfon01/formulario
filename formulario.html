@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="https://kit.fontawesome.com/9c3b710faa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/formulario.css">
+    <link rel="icon" href="./img/tienda.png">
+</head>
+<body>
+    <section class="container" id="formHistoria">
+        <div class="form-content">
+            <h1 id="title">Avatar</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre" id="name" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Apellido" id="lastName" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Apodo" id="nickName" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="color de cabello" id="hairColor" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="color de ojos" id="eyesColor" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="number" placeholder="Edad" id="ege" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="hobby" id="hobby" required>
+                    </div>
+                    <p>Volver a la pagina inicial <a href="./index.html">Click aqui</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" onclick="mostrarInfo()">Enviar</button>                    
+                </div>                
+            </form>            
+        </div>
+        <div id="fin"></div>
+    </section>    
+    <script src="./src/script.js"></script>
+</body>
+</html>

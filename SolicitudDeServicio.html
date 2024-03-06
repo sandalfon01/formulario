@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="https://kit.fontawesome.com/9c3b710faa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/SolicitudDeServicio.css">
+    <link rel="icon" href="./img/tienda.png">
+</head>
+<body>
+    <section class="container" >
+        <div class="form-content" id="formulario">
+            <h1 id="title">Solicitud de servicios</h1>
+            <form >
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre y apellidos" id="name" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Correo" id="email" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-mobile-retro"></i>
+                        <input type="number" placeholder="celular" id="cell" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="opciones" class="fa-solid fa-file">Servicio</label>
+                        <select id="opciones" name="opciones" >
+                            <option value="opcion1">Personalización</option>
+                            <option value="opcion2">Pedido Mayorista</option>
+                            <option value="opcion3">Devolución</option>
+                        </select>
+                    </div>
+                    <p>Volver a la pagina anterior oprime cancelar</p>
+                </div>                
+                <div class="btn-field">
+                    <button type="button" onclick="mostrarInfo()">Enviar Datos</button>                                       
+                </div>
+                <div class="btn-back">
+                    <button type="button"><a href="./index.html">cancelar</a></button> 
+                </div>                
+            </form>            
+        </div>        
+    </section>
+    <section id="informacion" class="informacion">
+        <h2>datos</h2>
+        <div id="datos"><a href="./SolicitudDeServicio.html">volver</a></div>  
+    </section>  
+    <script src="./src/SolicitudDeServicio.js"></script>
+</body>
+</html>
