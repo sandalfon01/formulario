@@ -27,8 +27,10 @@
                         <input type="number" placeholder="celular" id="cell" required>
                     </div>
                     <div class="input-field">
-                        <label for="opciones" class="fa-solid fa-file">Servicio</label>
-                        <select id="opciones" name="opciones" >
+                        <i class="fa-solid fa-file"></i>
+                        <label for="opciones"></label>
+                        <select id="opciones" name="opciones">
+                            <option value="" disabled selected>Servicio</option>
                             <option value="opcion1">Personalización</option>
                             <option value="opcion2">Pedido Mayorista</option>
                             <option value="opcion3">Devolución</option>
@@ -46,8 +48,11 @@
         </div>        
     </section>
     <section id="informacion" class="informacion">
-        <h2>datos</h2>
-        <div id="datos"><a href="./SolicitudDeServicio.html">volver</a></div>  
+        <h2>
+            datos <br>
+            <a href="./SolicitudDeServicio.html">volver</a>
+        </h2>
+        <div id="datos"></div>  
     </section>  
     <script src="./src/SolicitudDeServicio.js"></script>
 </body>

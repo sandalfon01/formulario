@@ -98,9 +98,6 @@ body{
     transition: .2s linear;
 }
 
-.btn-field .label{
-    color: #fff;
-}
 
 form p{
     color: #fff;
@@ -112,6 +109,29 @@ form p a{
     color: #f9580e;
     margin-left: 5px;
     font-size: 13px;
+}
+
+.input-field label{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 5px;
+    
+}
+
+.input-field select{
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 .3rem 1rem rgba(0, 0 ,0, .3);
+    cursor: pointer;
+    transition: .2s linear;
+    background: #fff;
+    color: #f9580e;
+    font-size: 1.7rem
 }
 
 .btn-field button{
@@ -164,6 +184,15 @@ form p a{
     color: #f9580e;
     font-size: 30px;
     text-align: center;
+}
+
+#informacion a{
+    color: #fff;
+    font-size: 2rem;
+}
+
+#informacion a:hover{
+    color: #ffc246;
 }
 
 #datos {
